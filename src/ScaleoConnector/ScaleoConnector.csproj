@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- This project uses the standard Microsoft .NET SDK.
+       The SDK provides the basic build, publish, and test functionality. -->
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!-- The output type is set to "Exe", meaning the project will be compiled
+         into an executable console application rather than a class library. -->
+
+    <TargetFramework>net9.0</TargetFramework>
+    <!-- The target framework is .NET 9.0. This defines which runtime and API set
+         the project will use. -->
+
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Enables implicit "using" directives for common namespaces (System, System.Linq, etc.),
+         so you don’t need to manually add them in each file. -->
+
+    <Nullable>enable</Nullable>
+    <!-- Enables nullable reference type checks. This helps prevent NullReferenceException
+         by enforcing explicit handling of null values. -->
+  </PropertyGroup>
+</Project>
